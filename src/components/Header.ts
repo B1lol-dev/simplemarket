@@ -5,6 +5,7 @@ import logoImg from "../assets/logo.svg";
 import cartIcon from "../assets/icons/cart.svg";
 import userIcon from "../assets/icons/user.svg";
 import searchIcon from "../assets/icons/search.svg";
+import { toggleTheme } from "../utils/toggleTheme";
 
 export const Header = () => {
   const user = JSON.parse(localStorage.getItem("user")!) || {};
@@ -12,6 +13,15 @@ export const Header = () => {
   window.addEventListener("load", () => {
     const searchForm = document.getElementById("nav_search") as HTMLFormElement;
     const searchInput = searchForm.children[0] as HTMLInputElement;
+    const nav_theme_toggle = document.getElementById(
+      "nav_theme_toggle"
+    ) as HTMLButtonElement;
+
+    nav_theme_toggle.addEventListener("click", () => {
+      toggleTheme();
+      nav_theme_toggle.innerText =
+        localStorage.getItem("isDarkMode") === "true" ? "🌙" : "☀️";
+    });
 
     searchForm.addEventListener("submit", (e: Event) => {
       e.preventDefault();
@@ -44,6 +54,9 @@ export const Header = () => {
                     : /*html*/ `<a href="/login" onclick="location.pathname='/login'" class="flex items-center"><img src=${userIcon} alt="" class="dark:invert-100">Login</a>`
                 }</li>
                 <li><a href="/cart" onclick="location.pathname='/cart'" class="flex items-center"><img src=${cartIcon} alt="" class="dark:invert-100">Cart</a></li>
+                <button id="nav_theme_toggle" class="p-2 bg-white h-10 w-10 rounded-lg dark:bg-sm-black-light">${
+                  localStorage.getItem("isDarkMode") === "true" ? "🌙" : "☀️"
+                }</button>
             </ul>
         </nav>
         `)} 
