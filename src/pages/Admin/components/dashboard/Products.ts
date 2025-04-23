@@ -1,5 +1,5 @@
 import axios from "axios";
-import { ProductCard } from "../../../../components/Cards/ProductCard";
+import { ProductCard } from "../cards/ProductCard";
 import { API_URL } from "../../../../constants/constants";
 import { v4 as uuidv4 } from "uuid";
 
@@ -64,8 +64,8 @@ export const Products = (): string => {
   });
 
   return /*html*/ `
-    <div class="w-full h-full relative bg-sm-white dark:bg-sm-black">
-        <div class="grid grid-cols-5 gap-6 p-8 justify-items-center" id="admin_dashboard_products_wrapper">
+    <div class="w-full h-full relative bg-sm-white dark:bg-sm-black overflow-y-scroll">
+        <div class="grid grid-cols-5 gap-6 p-8 justify-items-center overflow-x-hidden" id="admin_dashboard_products_wrapper">
             
         </div>
         <button type="button" class="h-10 w-10 rounded-full text-white text-3xl p-5 bg-sm-purple flex items-center justify-center fixed bottom-5 right-5" id="admin_dashboard_add_product_btn">+</button>

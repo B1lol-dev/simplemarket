@@ -5,7 +5,7 @@
       "title": "Galaxy S22 Ultra",
       "price": 630,
       "image": "https://api.radius.uz/storage/products/January2025/lersz6ZGnzuc0kZFKS2m.webp",
-      "url": "/product/1",
+      "url": "/product/d08b6116-d24c-4ada-8cce-1bfc64f73ecc",
       "categories": [
         "smartphones",
         "electronics"
@@ -16,7 +16,7 @@
       "title": "Iphone 16",
       "price": 999,
       "image": "https://3dplanet.am/wp-content/uploads/2024/09/16-black.jpg",
-      "url": "/product/2",
+      "url": "/product/6128135b-f4f5-4040-a8c5-69f8734d7e0e",
       "categories": [
         "smartphones",
         "electronics"
@@ -27,32 +27,11 @@
       "title": "Macbook Pro 16",
       "price": 1999,
       "image": "https://brostore.uz/cdn/shop/files/1_30a83e5f-52d3-4ca7-a682-9d6dfa92cc8b.png?v=1707381920",
-      "url": "/product/3",
+      "url": "/product/2e81bc93-3a63-40ec-931b-9f93862669a5",
       "categories": [
         "laptops",
         "electronics"
       ]
-    },
-    {
-      "id": "a2836da4-9337-4d2e-b6b3-0521ba475472",
-      "title": "Matiz",
-      "price": "5000",
-      "image": "",
-      "url": "/product/a2836da4-9337-4d2e-b6b3-0521ba475472"
-    },
-    {
-      "id": "266785db-0702-4ac7-b41c-e6ee6791ba3b",
-      "title": "a",
-      "price": "123",
-      "image": "",
-      "url": "/product/266785db-0702-4ac7-b41c-e6ee6791ba3b"
-    },
-    {
-      "id": "67a87780-0c31-4310-bd02-33f21a29b340",
-      "title": "ab",
-      "price": "123",
-      "image": "",
-      "url": "/product/67a87780-0c31-4310-bd02-33f21a29b340"
     }
   ],
   "users": [
