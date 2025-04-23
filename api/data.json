@@ -1,0 +1,14 @@
+{
+  "v1": {
+    "products": [
+      {
+        "id": 1,
+        "name": "Galaxy S22 Ultra",
+        "price": 630,
+        "color": "black",
+        "url": "https://openshop.uz/shop/product/82727-samsung-galaxy-s25-ultra-5g-12-256gb-titanium-black-titan-qorarang?lang=en",
+        "categories": ["smartphones", ""]
+      }
+    ]
+  }
+}
