@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "d08b6116-d24c-4ada-8cce-1bfc64f73ecc",
       "title": "Galaxy S22 Ultra",
       "price": 630,
       "image": "https://api.radius.uz/storage/products/January2025/lersz6ZGnzuc0kZFKS2m.webp",
@@ -9,7 +9,7 @@
       "categories": ["smartphones", "electronics"]
     },
     {
-      "id": 2,
+      "id": "6128135b-f4f5-4040-a8c5-69f8734d7e0e",
       "title": "Iphone 16",
       "price": 999,
       "image": "https://3dplanet.am/wp-content/uploads/2024/09/16-black.jpg",
@@ -17,7 +17,7 @@
       "categories": ["smartphones", "electronics"]
     },
     {
-      "id": 3,
+      "id": "2e81bc93-3a63-40ec-931b-9f93862669a5",
       "title": "Macbook Pro 16",
       "price": 1999,
       "image": "https://brostore.uz/cdn/shop/files/1_30a83e5f-52d3-4ca7-a682-9d6dfa92cc8b.png?v=1707381920",
@@ -37,12 +37,6 @@
       "username": "alex",
       "password": "1234",
       "cart": [1]
-    },
-    {
-      "id": "368d43da-6980-4c5c-8dad-bf643da3fd9d",
-      "username": "steve",
-      "password": "1234",
-      "cart": []
     }
   ],
   "admins": [
@@ -50,11 +44,6 @@
       "id": "2619837e-b957-428c-8043-2a446c11f66e",
       "username": "admin",
       "password": "admin123"
-    },
-    {
-      "id": "2619837e-b957-428c-8043-2a446c11f667",
-      "username": "admina",
-      "password": "admin1234"
     }
   ]
 }
