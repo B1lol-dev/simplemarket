@@ -2,12 +2,27 @@
   "products": [
     {
       "id": 1,
-      "name": "Galaxy S22 Ultra",
+      "title": "Galaxy S22 Ultra",
       "price": 630,
-      "color": "black",
-      "image": "https://openshop.uz/shop/product/82727-samsung-galaxy-s25-ultra-5g-12-256gb-titanium-black-titan-qorarang?lang=en",
-      "url": "/products/1",
+      "image": "https://api.radius.uz/storage/products/January2025/lersz6ZGnzuc0kZFKS2m.webp",
+      "url": "/product/1",
       "categories": ["smartphones", "electronics"]
+    },
+    {
+      "id": 2,
+      "title": "Iphone 16",
+      "price": 999,
+      "image": "https://3dplanet.am/wp-content/uploads/2024/09/16-black.jpg",
+      "url": "/product/2",
+      "categories": ["smartphones", "electronics"]
+    },
+    {
+      "id": 3,
+      "title": "Macbook Pro 16",
+      "price": 1999,
+      "image": "https://brostore.uz/cdn/shop/files/1_30a83e5f-52d3-4ca7-a682-9d6dfa92cc8b.png?v=1707381920",
+      "url": "/product/3",
+      "categories": ["laptops", "electronics"]
     }
   ],
   "users": [
