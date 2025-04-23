@@ -16,6 +16,7 @@
     "@tailwindcss/vite": "^4.1.4",
     "axios": "^1.8.4",
     "routerjs": "^2.4.5",
-    "tailwindcss": "^4.1.4"
+    "tailwindcss": "^4.1.4",
+    "uuid": "^11.1.0"
   }
 }

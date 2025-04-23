@@ -1,5 +1,9 @@
+import { Header } from "../../components/Header";
+
 export const Home = (): string => {
   return /*html*/ `
-    <h1>Home</h1>
+    <div>
+        ${Header()}
+    </div>
   `;
 };

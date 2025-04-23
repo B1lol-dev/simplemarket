@@ -1,8 +1,18 @@
 @import "tailwindcss";
 
 @theme {
+  --color-sm-black: #0d1c2e;
+  --color-sm-white: #e6e7eb;
+  --color-sm-gray: #494949;
+  --color-sm-gray-light: #7c7a7a;
+  --color-sm-purple: #5c37cb;
+  --color-sm-aqua: #2a5ade;
 }
 
 button {
+  cursor: pointer;
+}
+
+a {
   cursor: pointer;
 }
