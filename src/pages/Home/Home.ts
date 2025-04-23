@@ -2,9 +2,10 @@ import axios from "axios";
 import { Container } from "../../components/Container";
 import { Header } from "../../components/Header";
 import { ProductCard } from "../../components/Cards/ProductCard";
+import { API_URL } from "../../constants/constants";
 
 export const Home = (): string => {
-  axios.get("http://localhost:3000/products").then((res) => {
+  axios.get(`${API_URL}/products`).then((res) => {
     let products: Array<any> = res.data;
     const home_products_wrapper = document.getElementById(
       "home_products_wrapper"
