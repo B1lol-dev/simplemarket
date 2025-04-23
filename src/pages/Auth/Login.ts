@@ -2,7 +2,7 @@ import axios from "axios";
 import { API_URL } from "../../constants/constants";
 
 export const Login = (): string => {
-  if (localStorage.getItem("user")) {
+  if (JSON.parse(localStorage.getItem("user")!)?.token) {
     location.pathname = "/";
     return "";
   }
