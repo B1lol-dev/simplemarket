@@ -20,10 +20,20 @@ export const Router = (root: HTMLElement) => {
       root.innerHTML = Register();
     })
     .get("/admin", () => {
-      root.innerHTML = Admin();
+      root.innerHTML = Admin("");
     })
     .get("/admin/login", () => {
       root.innerHTML = AdminLogin();
+    })
+    .get("/admin/dashboard/:tab", (req) => {
+      const tab = req.get("tab") as string;
+
+      if (tab !== "users" && tab !== "products" && tab !== "admins") {
+        root.innerHTML = NotFound();
+        return;
+      } else {
+        root.innerHTML = Admin(tab);
+      }
     })
     .error(404, () => {
       root.innerHTML = NotFound();

@@ -30,13 +30,19 @@
       "id": "b270c01f-40cd-4f7a-81a0-9f480d5d14d2",
       "username": "john",
       "password": "1234",
-      "cart": [1]
+      "cart": [1, 2]
     },
     {
       "id": "29ca657f-1998-4bc0-b5ee-b4522f72bbc7",
       "username": "alex",
       "password": "1234",
       "cart": [1]
+    },
+    {
+      "id": "368d43da-6980-4c5c-8dad-bf643da3fd9d",
+      "username": "steve",
+      "password": "1234",
+      "cart": []
     }
   ],
   "admins": [

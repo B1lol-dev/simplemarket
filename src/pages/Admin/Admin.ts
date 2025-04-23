@@ -1,8 +1,9 @@
 import axios from "axios";
 import { API_URL } from "../../constants/constants";
 import { AdminSidebar } from "./components/AdminSidebar";
+import { AdminDashboard } from "./components/AdminDashboard";
 
-export const Admin = (): string => {
+export const Admin = (dashboardTab: string): string => {
   const adminToken = localStorage.getItem("adminToken");
 
   if (!adminToken) {
@@ -20,6 +21,7 @@ export const Admin = (): string => {
   return /*html*/ `
     <div class="bg-sm-white h-screen w-full flex items-start justify-start dark:bg-sm-black">
         ${AdminSidebar()}
+        ${AdminDashboard(dashboardTab)}
     </div>
   `;
 };
