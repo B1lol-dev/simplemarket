@@ -35,13 +35,15 @@ export const Products = (): string => {
     admin_dashboard_add_product_form.addEventListener("submit", (e: Event) => {
       e.preventDefault();
       const imageInp = admin_dashboard_add_product_form
-        .children[0] as HTMLInputElement;
+        .children[1] as HTMLInputElement;
       const titleInp = admin_dashboard_add_product_form
         .children[2] as HTMLInputElement;
       const priceInp = admin_dashboard_add_product_form
         .children[3] as HTMLInputElement;
 
       const newID = uuidv4();
+
+      console.log(imageInp.value);
 
       axios
         .post(`${API_URL}/products`, {
