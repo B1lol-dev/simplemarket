@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --color-sm-black: #0d1c2e;
+  --color-sm-black: #111316;
+  --color-sm-black-light: #181a1f;
   --color-sm-white: #e6e7eb;
   --color-sm-gray: #494949;
   --color-sm-gray-light: #7c7a7a;
@@ -9,10 +10,20 @@
   --color-sm-aqua: #2a5ade;
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 button {
   cursor: pointer;
 }
 
 a {
   cursor: pointer;
+}
+
+html {
+  background: var(--color-sm-white);
+
+  &.dark {
+    background: var(--color-sm-black);
+  }
 }

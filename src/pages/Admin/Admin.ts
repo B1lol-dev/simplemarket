@@ -18,7 +18,7 @@ export const Admin = (): string => {
   });
 
   return /*html*/ `
-    <div>
+    <div class="bg-sm-white h-screen w-full flex items-start justify-start dark:bg-sm-black">
         ${AdminSidebar()}
     </div>
   `;

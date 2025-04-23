@@ -17,7 +17,7 @@ export const Home = (): string => {
   });
 
   return /*html*/ `
-    <div class="bg-sm-white min-h-screen">
+    <div class="bg-sm-white min-h-screen dark:bg-sm-black">
         ${Header()}
         <main>
           <section class="pt-32">
