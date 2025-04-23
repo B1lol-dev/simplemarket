@@ -8,7 +8,7 @@ export const AdminDashboard = (tab: string): string => {
   switch (tab) {
     case "users":
       function updateUsers() {
-        axios.get("http://localhost:3000/users").then((res) => {
+        axios.get(`${API_URL}/users`).then((res) => {
           const { data: users } = res;
           const admin_dashboard_users_wrapper = document.getElementById(
             "admin_dashboard_users_wrapper"
