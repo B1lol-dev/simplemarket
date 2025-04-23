@@ -3,7 +3,7 @@ import { Router } from "./Router";
 
 Router(document.getElementById("app")!);
 
-// theme
+// theme setter
 if (localStorage.getItem("isDarkMode") === "true") {
   document.querySelector("html")!.classList.add("dark");
 } else {
