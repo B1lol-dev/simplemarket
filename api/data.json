@@ -41,9 +41,14 @@
   ],
   "admins": [
     {
-      "id": 1,
+      "id": "2619837e-b957-428c-8043-2a446c11f66e",
       "username": "admin",
       "password": "admin123"
+    },
+    {
+      "id": "2619837e-b957-428c-8043-2a446c11f667",
+      "username": "admina",
+      "password": "admin1234"
     }
   ]
 }
