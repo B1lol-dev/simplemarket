@@ -50,6 +50,7 @@ export const Admins = (): string => {
         .then((res) => {
           usernameInp.value = "";
           passwordInp.value = "";
+          admin_dashboard_add_admin_form.classList.toggle("hidden");
           console.log(res);
           updateAdmins();
         });

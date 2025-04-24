@@ -8,8 +8,6 @@ declare global {
 }
 
 export const ProductCard = (product: any): string => {
-  console.log(location.origin + product?.url);
-
   window.adminDeleteProduct = (_this: any) => {
     const thisPrice = _this.previousElementSibling.previousElementSibling;
     const urlParts = thisPrice.href.split("/");

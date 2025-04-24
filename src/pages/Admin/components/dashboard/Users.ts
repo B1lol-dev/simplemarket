@@ -49,6 +49,7 @@ export const Users = (): string => {
         .then((res) => {
           usernameInp.value = "";
           passwordInp.value = "";
+          admin_dashboard_add_user_form.classList.toggle("hidden");
           console.log(res);
           updateUsers();
         });

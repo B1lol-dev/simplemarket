@@ -1,6 +1,4 @@
 export const ProductCard = (product: any): string => {
-  console.log(location.origin + product?.url);
-
   return /*html */ `
     <a onclick="location.pathname = '${product?.url}'">
         <div class="max-w-[300px] h-[500px] w-full! items-center bg-white p-8 rounded-md dark:bg-sm-black-light">

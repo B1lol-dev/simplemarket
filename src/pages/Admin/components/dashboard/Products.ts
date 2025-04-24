@@ -57,6 +57,7 @@ export const Products = (): string => {
           imageInp.value = "";
           titleInp.value = "";
           priceInp.value = "";
+          admin_dashboard_add_product_form.classList.toggle("hidden");
           console.log(res);
           updateProducts();
         });
