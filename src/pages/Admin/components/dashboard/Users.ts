@@ -58,8 +58,8 @@ export const Users = (): string => {
   });
 
   return /*html*/ `
-    <div class="w-full h-full relative bg-sm-white dark:bg-sm-black">
-        <div class="grid grid-cols-5 gap-6 p-8 justify-items-center" id="admin_dashboard_users_wrapper">
+    <div class="w-full h-full relative bg-sm-white dark:bg-sm-black overflow-y-scroll">
+        <div class="grid grid-cols-4 gap-6 p-8 justify-items-center max-2xl:grid-cols-3 max-xl:grid-cols-2 max-md:flex max-md:flex-col max-md:items-center" id="admin_dashboard_users_wrapper">
             
         </div>
         <button type="button" class="h-10 w-10 rounded-full text-white text-3xl p-5 bg-sm-purple flex items-center justify-center fixed bottom-5 right-5" id="admin_dashboard_add_user_btn">+</button>
