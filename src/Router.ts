@@ -7,6 +7,7 @@ import { Register } from "./pages/Auth/Register.ts";
 import { NotFound } from "./pages/NotFound/NotFound.ts";
 import { Admin } from "./pages/Admin/Admin.ts";
 import { AdminLogin } from "./pages/Admin/AdminLogin.ts";
+import { Product } from "./pages/Product/Product.ts";
 
 export const Router = (root: HTMLElement) => {
   createRouter()
@@ -34,6 +35,11 @@ export const Router = (root: HTMLElement) => {
       } else {
         root.innerHTML = Admin(tab);
       }
+    })
+    .get("/product/:id", (req) => {
+      const id = req.get("id") as string;
+      console.log(id);
+      root.innerHTML = Product(id);
     })
     .error(404, () => {
       root.innerHTML = NotFound();
