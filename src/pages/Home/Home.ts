@@ -23,7 +23,7 @@ export const Home = (): string => {
         <main>
           <section class="pt-32">
             ${Container(/*html*/ `
-                <div id="home_products_wrapper" class="grid grid-cols-6 justify-items-center gap-10">
+                <div id="home_products_wrapper" class="grid grid-cols-5 justify-items-center gap-10 max-2xl:grid-cols-4 max-xl:grid-cols-3 max-lg:grid-cols-2 max-sm:flex max-sm:flex-col max-sm:items-center">
                   
                 </div>
             `)}
