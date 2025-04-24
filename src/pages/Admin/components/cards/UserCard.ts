@@ -41,7 +41,7 @@ export const UserCard = (userData: any): string => {
         <div>
             ${userData.cart
               .map((product: number) => {
-                return /*html*/ `<a href="/products/${product}" onclick="location.path = '/products/${product}'" class="text-md hover:text-sm-aqua dark:text-white">Id: ${product}${
+                return /*html*/ `<a href="/product/${product}" onclick="location.path = '/product/${product}'" class="text-md hover:text-sm-aqua dark:text-white">Id: ${product}${
                   product === userData.cart[userData.cart.length - 1]
                     ? ""
                     : ", "
