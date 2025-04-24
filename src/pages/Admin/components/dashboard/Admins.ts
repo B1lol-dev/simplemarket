@@ -60,7 +60,7 @@ export const Admins = (): string => {
 
   return /*html*/ `
     <div class="w-full h-full relative bg-sm-white dark:bg-sm-black overflow-y-scroll">
-        <div class="grid grid-cols-5 gap-6 p-8 justify-items-center overflow-x-hidden" id="admin_dashboard_admins_wrapper">
+        <div class="grid grid-cols-5 gap-6 p-8 justify-items-center overflow-x-hidden max-2xl:grid-cols-3 max-xl:grid-cols-2 max-md:flex max-md:flex-col max-md:items-center" id="admin_dashboard_admins_wrapper">
             
         </div>
         <button type="button" class="h-10 w-10 rounded-full text-white text-3xl p-5 bg-sm-purple flex items-center justify-center fixed bottom-5 right-5" id="admin_dashboard_add_admin_btn">+</button>
