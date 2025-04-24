@@ -34,7 +34,7 @@ export const Register = (): string => {
           password: passwordInp.value,
           cart: [],
         })
-        .then((res) => {
+        .then(() => {
           localStorage.setItem(
             "user",
             JSON.stringify({ username: usernameInp.value, token: userID })
