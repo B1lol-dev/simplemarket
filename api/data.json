@@ -60,6 +60,18 @@
       "username": "dilbar",
       "password": "1111",
       "cart": []
+    },
+    {
+      "id": "acd50ac8-794c-421e-972b-530376404714",
+      "username": "b1lol",
+      "password": "1234",
+      "cart": []
+    },
+    {
+      "id": "cc894558-b0c3-47bb-8b08-22662d132491",
+      "username": "b1lol2",
+      "password": "1234",
+      "cart": []
     }
   ],
   "admins": [
