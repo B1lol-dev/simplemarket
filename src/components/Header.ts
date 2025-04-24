@@ -36,10 +36,10 @@ export const Header = () => {
         <nav class="flex items-center justify-between">
             <a href="/" onclick="location.pathname = '/'">
                 <!-- <img src=${logoImg} alt="logo" class="w-20 h-20"> -->
-                <h1 class="text-3xl dark:text-white">SimpleMarket</h1>
+                <h1 class="text-3xl dark:text-white"><span class="max-md:hidden">SimpleMarket</span><span class="hidden max-md:block">SM</span></h1>
             </a>
-            <form id="nav_search" class="flex max-w-3xl w-full">
-                <input type="text" placeholder="Search..." class="px-3 py-1 border border-sm-gray rounded-l-md w-full text-2xl dark:text-white">
+            <form id="nav_search" class="flex max-w-3xl w-full max-xl:max-w-xl max-lg:max-w-md max-lg:mx-3">
+                <input type="text" placeholder="Search..." class="px-3 py-1 border border-sm-gray rounded-l-md w-full text-2xl dark:text-white max-md:text-xl">
                 <button class="bg-sm-purple text-white p-1 px-2 text-2xl rounded-r-md">
                     <img src=${searchIcon} alt="Search" class="invert-100">
                 </button>
@@ -51,9 +51,9 @@ export const Header = () => {
                     <a href="/profile" onclick="location.pathname = '/profile'"><div class="h-4 w-4 bg-sm-purple text-white flex items-center justify-center p-5 text-xl rounded-full">${user?.username
                       .substring(0, 1)
                       .toUpperCase()}</div></a>`
-                    : /*html*/ `<a href="/login" onclick="location.pathname='/login'" class="flex items-center"><img src=${userIcon} alt="" class="dark:invert-100">Login</a>`
+                    : /*html*/ `<a href="/login" onclick="location.pathname='/login'" class="flex items-center h-6 min-w-6"><img src=${userIcon} alt="" class="dark:invert-100"><span class="max-lg:hidden">Login</span></a>`
                 }</li>
-                <li><a href="/cart" onclick="location.pathname='/cart'" class="flex items-center"><img src=${cartIcon} alt="" class="dark:invert-100">Cart</a></li>
+                <li><a href="/cart" onclick="location.pathname='/cart'" class="flex items-center h-6 min-w-6"><img src=${cartIcon} alt="" class="dark:invert-100"><span class="max-lg:hidden">Cart</span></a></li>
                 <button id="nav_theme_toggle" class="p-2 bg-white h-10 w-10 rounded-lg dark:bg-sm-black-light">${
                   localStorage.getItem("isDarkMode") === "true" ? "🌙" : "☀️"
                 }</button>
