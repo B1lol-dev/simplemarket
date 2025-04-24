@@ -19,6 +19,7 @@ export const ProductCard = (product: any): string => {
       .then((res) => {
         console.log(res);
         _this.parentElement?.parentElement?.parentElement?.remove();
+        location.reload();
       })
       .catch((err) => {
         console.log(err);

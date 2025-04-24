@@ -51,6 +51,7 @@ export const Admins = (): string => {
           usernameInp.value = "";
           passwordInp.value = "";
           admin_dashboard_add_admin_form.classList.toggle("hidden");
+          location.reload();
           console.log(res);
           updateAdmins();
         });

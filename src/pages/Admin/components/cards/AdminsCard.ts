@@ -15,6 +15,7 @@ export const AdminCard = (adminData: any): string => {
       .delete(`${API_URL}/admins/${id}`)
       .then(() => {
         _this.parentElement?.remove();
+        location.reload();
       })
       .catch((err) => {
         console.log(err);

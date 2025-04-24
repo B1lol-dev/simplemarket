@@ -50,6 +50,7 @@ export const Users = (): string => {
           usernameInp.value = "";
           passwordInp.value = "";
           admin_dashboard_add_user_form.classList.toggle("hidden");
+          location.reload();
           console.log(res);
           updateUsers();
         });
