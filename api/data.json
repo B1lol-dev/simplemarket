@@ -23,15 +23,11 @@
       ]
     },
     {
-      "id": "2e81bc93-3a63-40ec-931b-9f93862669a5",
-      "title": "Macbook Pro 16",
-      "price": 1999,
-      "image": "https://brostore.uz/cdn/shop/files/1_30a83e5f-52d3-4ca7-a682-9d6dfa92cc8b.png?v=1707381920",
-      "url": "/product/2e81bc93-3a63-40ec-931b-9f93862669a5",
-      "categories": [
-        "laptops",
-        "electronics"
-      ]
+      "id": "8a661cb6-335e-4fc3-aa60-1748bbf84a73",
+      "title": "Xiaomi Redmi 11 pro",
+      "price": "300",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Gc_MGjK6bOilbMrrIZPTgP3xGpSiP1nrclAvCvTl0T4P2v0r637ArUbzE5RXWpVqJSM&usqp=CAU",
+      "url": "/product/8a661cb6-335e-4fc3-aa60-1748bbf84a73"
     }
   ],
   "users": [
@@ -51,6 +47,12 @@
       "cart": [
         1
       ]
+    },
+    {
+      "id": "a013d339-6c2a-4f12-9d9c-49b8b26d8dbb",
+      "username": "dilbar",
+      "password": "1111",
+      "cart": []
     }
   ],
   "admins": [
