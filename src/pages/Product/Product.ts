@@ -6,7 +6,6 @@ import { Container } from "../../components/Container";
 export const Product = (id: string): string => {
   axios.get(`${API_URL}/products/${id}`).then((res) => {
     const { data: productData } = res;
-    console.log(productData);
     const product_section = document.getElementById(
       "product_section"
     ) as HTMLSelectElement;
